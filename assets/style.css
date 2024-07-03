@@ -2,6 +2,7 @@ body {
 	max-width: 1920px;
 	margin: auto;
 }
+
 * {
 	font-family: 'Inter';
 	font-style: normal;
@@ -82,6 +83,7 @@ body {
 .about-me__introduction {
 	font-family: 'Spectral';
 	font-weight: 800;
+	font-size: medium;
 	font-style: italic;
 	width: 60%;
 }
@@ -98,12 +100,11 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active,.nav-link.active-tag, .nav-pills .show > .nav-link {
-	color: #fff;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000 !important;
 }
 .item-column {
 	position: relative;
