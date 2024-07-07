@@ -18,9 +18,43 @@
 	<script src="./assets/scripts.js" defer></script>
 	<script async src="https://cdn.ampproject.org/v0.js" defer></script>
 
-	<title>Nina Carducci</title>
-	<meta name="description"
-		content="Photographe professionnelle basée en Île-de-France, je vous propose mes services pour capturer vos moments les plus précieux et les rendre immortels.">
+	<title>Site de préstations photographie</title>
+	
+		<!-- Balises meta pour OpenGraph -->
+	<meta property="og:title" content="Site de préstations photographie" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://127.0.0.1:5500/index.html" />
+	<meta property="og:image" content="URL de l'image à afficher" />
+	<meta property="og:description" content="Photographe professionnelle basée en Île-de-France, je vous propose mes services pour capturer vos moments les plus précieux et les rendre immortels."/>
+	<meta property="og:site_name" content="Nina Carducci" />
+
+	<!-- Balises meta pour Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@VotreCompteTwitter" />
+	<meta name="twitter:title" content="Site de préstations photographie" />
+	<meta name="twitter:description" content="Photographe professionnelle basée en Île-de-France, je vous propose mes services pour capturer vos moments les plus précieux et les rendre immortels." />
+	<meta name="twitter:image" content="URL de l'image à afficher" />
+
+	<!-- Script pour le référencement du site -->
+	<script type="application/ld+json">
+		{
+		  "@context": "http://schema.org",
+		  "@type": "ProfessionalService",
+		  "name": "Nina Carducci",
+		  "image": "URL de l'image à afficher",
+		  "telephone": "05 56 67 78 89",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressCountry": "FR"
+		  },
+		  "openingHours": "Mo, Tu, We, Th, Fr 10:00-19:00",
+		  "url": "http://127.0.0.1:5500/index.html",
+		  "sameAs": ["URL de votre page Facebook", "URL de votre page Twitter", "Autres profils de réseaux sociaux"]
+		}
+		</script>
 
 </head>
 
